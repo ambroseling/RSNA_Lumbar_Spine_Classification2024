@@ -23,6 +23,13 @@
 - There are 6290 unique series
 - Each study has around 3-4 series
 
+- Usually a majority of the scans use more than 1 scan to make a diagnosis across all 5 locations on the spine
+    - what i mean is that if you look at the 5 diagnosis on each location for a series, they use more than 1 scan,
+    - so one location can use 1 scan, 2-3 locations can use 1 scan
+
+
 - The contrast level (look at histogram) and compare among different series vs different studies
 - The distribution of pixel values, do a comparison
 - Be careful of relatioship btw instance number and slice location 
+- What is the relationship btw the instance used for making the diagnosis and the total number of instances in  the series?
+- currently what I do is 
