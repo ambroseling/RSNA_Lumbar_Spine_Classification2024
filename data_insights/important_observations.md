@@ -20,13 +20,13 @@
     - that was the only study where they gave a diagnosis of Spinal Canal Stenosis from a Sagittal T1 orientation
 
 - We have 1974 unique studies
-- There are 6290 unique series
+- There are 6290 unique series, Sagiital one has 2k samples around so 6k divided by 3 which makes sense
 - Each study has around 3-4 series
 
 - Usually a majority of the scans use more than 1 scan to make a diagnosis across all 5 locations on the spine
     - what i mean is that if you look at the 5 diagnosis on each location for a series, they use more than 1 scan,
     - so one location can use 1 scan, 2-3 locations can use 1 scan
-
+- there are around 80 sth unique combinations of severity scores and its very imbalanced, some combinations are have a lot more occurences than others, so need to be mitigated.
 
 - The contrast level (look at histogram) and compare among different series vs different studies
 - The distribution of pixel values, do a comparison
